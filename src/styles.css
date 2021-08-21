@@ -2,3 +2,61 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+:root {
+  --secondary: #0a0a0a;
+}
+
+/* footer */
+.footer {
+  margin-top: 2rem;
+}
+
+.social-links {
+  list-style: none;
+  margin: 1rem auto;
+}
+
+.social-links a {
+  display: inline;
+  color: var(--secondary);
+  font-size: 2.5rem;
+  margin: auto 1rem;
+}
+
+.footer small {
+  font-size: 1.2rem;
+}
+
+/* inputs */
+.inputs label,
+.inputs input {
+  display: block;
+  margin: auto;
+}
+
+.inputs label {
+  margin: 1.5rem auto 1rem auto;
+  font-size: 1.3rem;
+}
+
+.inputs input {
+  padding: 0.4rem;
+  border: 2px solid var(--secondary);
+  border-radius: 0.35rem;
+  margin-top: 0.4rem;
+}
+
+.inputs {
+  margin: 5rem auto;
+}
+/* button */
+.btn {
+  padding: 0.7rem 1.2rem;
+  background-color: var(--secondary);
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.35rem;
+}
